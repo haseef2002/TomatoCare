@@ -5,7 +5,7 @@ A Software Engineering Final Year Project implementing an Explainable AI (XAI) f
 The system integrates **MobileNetV2 CNN architecture** with **Real-time Environmental Data** (OpenWeather API) to provide high-accuracy, context-aware diagnoses.
 
 ##  Key Features
-- **Dual-Pathway Authentication:** Features a secure, encrypted local JSON registration system alongside Google OAuth integration for enterprise deployment.
+- **uthentication:** Features a secure, encrypted local JSON registration.
 - **Defensive Image Filtering:** Prevents "Garbage-In, Garbage-Out" by computationally filtering images for motion blur, overexposure, and occlusion prior to AI inference.
 - **Multimodal Sensor Fusion:** Combines visual lesion detection with live macro-climate suitability (Temperature & Humidity) to calculate an accurate Environmental Risk Index.
 - **Explainable AI (XAI):** Generates PyTorch-based **Grad-CAM** heatmaps to visually prove exactly where the AI detected the pathogen.
